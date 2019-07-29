@@ -1,0 +1,77 @@
+
+        .navigation {
+            background-color: beige;
+        }
+
+        .logo,
+        .menu {
+            background-color: beige;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        p {
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 1px solid plum;
+        }
+
+        h1{
+            color: darkmagenta;
+        }
+               }
+        .menu {
+            float: right;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin: 15px;
+            margin-right: 20px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+                        padding-right: 5px;
+            padding: 53px 5px 45px 5px;
+        }
+        .menu ul li a:hover{
+            background-color:bisque;
+            color:blue;
+        }
+    
+        header{
+            background-image: url(../img/beachc.jpg);
+            height:700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header p{
+            margin:0;
+        }
+        .beachc-container {
+            text-align:center;
+            padding-top:100px; 
+        }
+
+        .beachc-container a{
+            background-color: white;
+            color:rgb(6, 93, 207);
+            display: inline-block;
+            padding:10px 25px;
+            font-weight: bold;
+            border-radius: 20px;
+            margin:15px 10px;
+            text-decoration:none;
+        }
+
+        .beachc-container a:hover{
+            background-color:rgb(6, 93, 207);
+            color:white;
+            transition: all 0.5s ease;
+        }
