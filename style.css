@@ -46,7 +46,7 @@
         }
     
         header{
-            background-image: url(../img/beachc.jpg);
+            background-image: url(beachc.jpg);
             height:700px;
             background-size: cover;
             background-repeat: no-repeat;
